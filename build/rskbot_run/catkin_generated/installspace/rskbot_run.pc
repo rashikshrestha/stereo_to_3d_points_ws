@@ -1,8 +1,0 @@
-prefix=/home/rashik/ros/stereo_to_3d_points_ws/install
-
-Name: rskbot_run
-Description: Description of rskbot_run
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/rashik/ros/stereo_to_3d_points_ws/install/lib 
-Requires: 
