@@ -473,6 +473,24 @@ rskbot_gazebo/preinstall:
 .PHONY : rskbot_gazebo/preinstall
 
 #=============================================================================
+# Directory level rules for directory rskbot_run
+
+# Convenience name for "all" pass in the directory.
+rskbot_run/all:
+
+.PHONY : rskbot_run/all
+
+# Convenience name for "clean" pass in the directory.
+rskbot_run/clean:
+
+.PHONY : rskbot_run/clean
+
+# Convenience name for "preinstall" pass in the directory.
+rskbot_run/preinstall:
+
+.PHONY : rskbot_run/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

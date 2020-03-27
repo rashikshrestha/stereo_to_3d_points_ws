@@ -7,3 +7,4 @@
 subdirs("gtest")
 subdirs("rskbot_description")
 subdirs("rskbot_gazebo")
+subdirs("rskbot_run")

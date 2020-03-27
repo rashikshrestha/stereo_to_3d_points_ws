@@ -184,7 +184,7 @@
     </visual>
 
     <collision>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="0 1.57075 0"/>
       <geometry>
         <cylinder radius="${cameraRadius}" length="${cameraLength}"/>
       </geometry>
@@ -220,7 +220,7 @@
     </visual>
 
     <collision>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="0 1.57075 0"/>
       <geometry>
         <cylinder radius="${cameraRadius}" length="${cameraLength}"/>
       </geometry>
@@ -235,6 +235,42 @@
     <origin xyz="0.15 -0.055 0.15" rpy="0 0 0"/>
     <parent link="chassis"/>
     <child link="right_camera"/>
+  </joint>
+
+<!-- ############################## Point cloud (dummy link/frame) ####################################### -->
+
+  <link name="point_cloud">
+
+    <inertial>
+      <mass value="0" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.01"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </collision>
+    
+  </link>
+
+<!-- ############################## Chassis to Point cloud  ####################################### -->
+
+  <joint name="point_cloud_joint" type="fixed">
+    <axis xyz="0 0 0" />
+    <origin xyz="0.15 0 0.05" rpy="4.712389 0 4.712389"/>
+    <parent link="chassis"/>
+    <child link="point_cloud"/>
   </joint>
 
 

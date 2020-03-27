@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+    <!-- Start Gazebo Simulation -->
+    <include file="$(find rskbot_gazebo)/launch/rskbot_world.launch" />
+
+    <!-- Start stereo_image_proc package -->
+    <node ns="rskbot" name="stereo_image_proc" pkg="stereo_image_proc" type="stereo_image_proc"  output="screen" /> 
+
+    <!-- Start image_view package -->
+    <node name="stereo_view" pkg="image_view" type="stereo_view" args="stereo:=rskbot image:=image_rect" />
+
+    <!-- Start Rviz visualization -->
+    <include file="$(find rskbot_description)/launch/rskbot_rviz.launch" />
+
+    <!-- Start teleop_twist_keyboard package -->
+    <node name="teleop_twist_keyboard" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen" />
+
+
+</launch>

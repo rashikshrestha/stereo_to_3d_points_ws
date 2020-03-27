@@ -270,7 +270,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = '/home/rashik/ros/stereo_to_3d_points_ws/devel;/home/rashik/ros/stereo_img_proc_ws/devel;/home/rashik/ros/rsk_ws/devel;/home/rashik/ros/mybot_ws/devel;/home/rashik/ros/day2_try2_ws/devel;/opt/ros/melodic'.split(';')
+            CMAKE_PREFIX_PATH = '/home/rashik/ros/stereo_to_3d_points_ws/devel;/home/rashik/ros/stereo_img_proc_ws/devel;/home/rashik/ros/mybot_ws/devel;/home/rashik/ros/day2_try2_ws/devel;/opt/ros/melodic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

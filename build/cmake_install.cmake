@@ -133,6 +133,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/rashik/ros/stereo_to_3d_points_ws/build/gtest/cmake_install.cmake")
   include("/home/rashik/ros/stereo_to_3d_points_ws/build/rskbot_description/cmake_install.cmake")
   include("/home/rashik/ros/stereo_to_3d_points_ws/build/rskbot_gazebo/cmake_install.cmake")
+  include("/home/rashik/ros/stereo_to_3d_points_ws/build/rskbot_run/cmake_install.cmake")
 
 endif()
 

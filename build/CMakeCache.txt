@@ -348,6 +348,12 @@ rskbot_gazebo_BINARY_DIR:STATIC=/home/rashik/ros/stereo_to_3d_points_ws/build/rs
 //Value Computed by CMake
 rskbot_gazebo_SOURCE_DIR:STATIC=/home/rashik/ros/stereo_to_3d_points_ws/src/rskbot_gazebo
 
+//Value Computed by CMake
+rskbot_run_BINARY_DIR:STATIC=/home/rashik/ros/stereo_to_3d_points_ws/build/rskbot_run
+
+//Value Computed by CMake
+rskbot_run_SOURCE_DIR:STATIC=/home/rashik/ros/stereo_to_3d_points_ws/src/rskbot_run
+
 
 ########################
 # INTERNAL cache entries
@@ -458,7 +464,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -1,2 +1,2 @@
-rskbot_description:rskbot_gazebo
+rskbot_description:rskbot_gazebo:rskbot_run
 -DCATKIN_DEVEL_PREFIX=/home/rashik/ros/stereo_to_3d_points_ws/devel -DCMAKE_INSTALL_PREFIX=/home/rashik/ros/stereo_to_3d_points_ws/install -G Unix Makefiles

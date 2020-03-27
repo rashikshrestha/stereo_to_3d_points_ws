@@ -50,3 +50,10 @@
 /home/rashik/ros/stereo_to_3d_points_ws/build/rskbot_gazebo/CMakeFiles/install/local.dir
 /home/rashik/ros/stereo_to_3d_points_ws/build/rskbot_gazebo/CMakeFiles/rebuild_cache.dir
 /home/rashik/ros/stereo_to_3d_points_ws/build/rskbot_gazebo/CMakeFiles/install.dir
+/home/rashik/ros/stereo_to_3d_points_ws/build/rskbot_run/CMakeFiles/install/strip.dir
+/home/rashik/ros/stereo_to_3d_points_ws/build/rskbot_run/CMakeFiles/edit_cache.dir
+/home/rashik/ros/stereo_to_3d_points_ws/build/rskbot_run/CMakeFiles/list_install_components.dir
+/home/rashik/ros/stereo_to_3d_points_ws/build/rskbot_run/CMakeFiles/test.dir
+/home/rashik/ros/stereo_to_3d_points_ws/build/rskbot_run/CMakeFiles/install/local.dir
+/home/rashik/ros/stereo_to_3d_points_ws/build/rskbot_run/CMakeFiles/rebuild_cache.dir
+/home/rashik/ros/stereo_to_3d_points_ws/build/rskbot_run/CMakeFiles/install.dir
