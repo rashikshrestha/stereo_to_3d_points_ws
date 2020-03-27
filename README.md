@@ -25,9 +25,9 @@ You can check the availability of package using:
 * Inside the downloaded folder run : catkin_make  (for the first time only)
 * Inside the downloaded folder run **rskbot_run.sh** script (i.e  ./rskbot_run.sh )
 * Press the following keys inside the terminal to move around:
-		u    i    o
-		j    k    l
-		m    ,    .
+		| u | i | o |
+		| j | k | l |
+		| m | , | . |
 
 
 
