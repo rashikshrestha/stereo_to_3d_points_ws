@@ -1,0 +1,7 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/rashik/ros/stereo_img_proc_ws/devel/lib/python2.7/dist-packages",
+        "/home/rashik/ros/day2_try2_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ]
+}

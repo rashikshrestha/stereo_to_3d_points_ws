@@ -1,0 +1,8 @@
+prefix=/home/rashik/ros/stereo_to_3d_points_ws/devel
+
+Name: rskbot_description
+Description: Description of rskbot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/rashik/ros/stereo_to_3d_points_ws/devel/lib 
+Requires: 

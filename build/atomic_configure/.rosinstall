@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/rashik/ros/stereo_to_3d_points_ws/devel/setup.sh
