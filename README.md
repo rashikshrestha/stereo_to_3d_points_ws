@@ -1,8 +1,8 @@
 # stereo_to_3d_points_ws #
 
 ## Main goal ##
-* Make a differential drive robot in Gazebo Simulation with a stereo camera mounted on top.
-* The robot should be controlled from Keyboard.
+* Make a differential drive robot in Gazebo Simulation with a stereo camera mounted on top
+* The robot should be controlled from keyboard
 * Then corresponding 3D points of what robot sees should be plotted in Rviz
 
 <img src="screenshot.png" width="900" >
@@ -14,7 +14,7 @@ Make sure you have ROS installed.
 * stereo\_image_proc
 * image_view
 
-These packages comes pre-installed with the ROS environment.
+These packages come pre-installed with the ROS environment.
 
 You can check the availability of package using:
 * rospack list | grep stereo\_image_proc
