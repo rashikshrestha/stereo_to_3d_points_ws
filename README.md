@@ -10,15 +10,15 @@
 ## Dependencies ##
 Make sure you have ROS installed.
 
-2 packages should be pre installed:
+2 ROS packages should be pre installed:
 * stereo\_image_proc
 * image_view
-
-These packages come pre-installed with the ROS environment.
 
 You can check the availability of package using:
 * rospack list | grep stereo\_image_proc
 * rospack list | grep image_view
+
+Install them if packages are not found.
 
 ## To run the project ##
 * Clone this repository or just download the zip file and extract
