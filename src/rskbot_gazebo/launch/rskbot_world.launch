@@ -18,7 +18,7 @@
     <arg name="debug" value="$(arg debug)"/>
   </include>
 
-  <!-- Loads the rskbot model into the parameter server (needed for rviz hola )-->
+  <!-- Loads the rskbot model into the parameter server -->
   <param name="robot_description" command="$(find xacro)/xacro '$(find rskbot_description)/urdf/rskbot.xacro'"/>
 
 

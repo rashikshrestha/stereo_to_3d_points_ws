@@ -5,7 +5,6 @@
 
   <world name="default">
 
-
     <!-- Include a ground plane  -->
     <include>
       <uri>model://ground_plane</uri>
@@ -20,7 +19,6 @@
     <!-- <include>
       <uri>model://willowgarage</uri>
     </include> -->
-    
 
     <!-- Set the initial camera pose  -->
     <gui fullscreen='0'>
