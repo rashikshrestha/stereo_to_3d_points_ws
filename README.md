@@ -5,7 +5,7 @@
 * The robot should be controlled from Keyboard.
 * Then corresponding 3D points of what robot sees should be plotted in Rviz
 
-<img src="screenshot.png" width="640" >
+<img src="screenshot.png" width="900" >
 
 ## Dependencies ##
 Make sure you have ROS installed.
